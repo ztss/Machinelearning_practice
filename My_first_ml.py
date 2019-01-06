@@ -32,7 +32,7 @@ for i in range(3):
 # The knn object encapsulates the algorithm to build the model from the training tdata.
 knn = KNeighborsClassifier(n_neighbors=1)
 knn.fit(X_train, y_train)
-#KNeighborsClassifier(algorithm='auto',leaf_size=30,metric='minkowski',metric_params=None,n_jobs=1,n_neighbors=1,p=2,
+# KNeighborsClassifier(algorithm='auto',leaf_size=30,metric='minkowski',metric_params=None,n_jobs=1,n_neighbors=1,p=2,
 #                     weights='uniform')
 
 # predictions using this model on new data.
